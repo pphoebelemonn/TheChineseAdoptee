@@ -1,0 +1,172 @@
+html, body {
+  background-color: rgb(255, 242, 213);
+  margin: 0px;
+  padding:0px;
+}
+
+
+
+.title {
+  margin:0;
+  padding: 0;
+}
+
+#banner {
+  padding:20px;
+  margin:0px;
+  width: 97%;
+}
+
+#orph {
+  margin: 0px;
+  padding: 0px;
+  opacity: 1;
+  /* height: 100%;
+  width: 100%; */
+  /* min-height: 1250px; 
+  min-width: 1889px;  */
+  filter: sepia(50%);
+  filter: brightness(100%);
+  filter: blur(5px); 
+}
+
+#background-container {
+  position:absolute; 
+  margin: 0px;
+  padding: 0px;
+  opacity: 1;
+  width: 100%; 
+  height: 100%;
+  background-size:cover;
+  
+}
+
+
+.text-container {
+  
+  position: absolute;
+  width: 100%;
+  height: 25vh;
+  left: 50%;
+  top: 40vh;
+  transform: translate(-50%, -50%);
+  /* backdrop-filter: blur(5px); */
+}
+
+#main-title {
+  /* position: inherit; */
+  /* top: 25%; */
+  /* left: 50%;
+  width: 100%; */
+  /* transform: translate(-50%, -50%); */
+  text-align: center;
+  font-size: 10vh;
+  font-family: 'final', serif;
+  /* font-style: italic; */
+  font-weight: 400;
+  color: rgb(189, 56, 27);
+  margin:0; 
+}
+
+#sub-title {
+  /* position: absolute; */
+  /* top: 10vw; 
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  color: rgb(189, 56, 27);
+  text-align: center;
+  font-size: 5vh;
+  font-family: 'Playfair Display', serif;
+  margin:0; 
+
+}
+
+/* #line-separator {
+  position: inherit;
+  width: 100%;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+#red {
+  width: 100%;
+  filter: sepia(100%);
+  filter: brightness(95%);
+
+}
+
+#center-text {
+  width: 100%;
+  /* position: absolute; */
+  text-align: center;
+  font-size: 4vh;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 5vh; 
+  /* left: 50%;
+  top: 80%; */
+  /* transform: translate(-50%, -50%); */
+  
+}
+
+#prologue {
+  position: absolute;
+  width: 32%;
+  left: 34%;
+  bottom: 5vh;
+}
+
+.pro-text {
+  text-align: center;
+  font-size: 3vh;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 0px;
+  padding-top: 25px;
+  margin: 0px;
+}
+.sidebar {
+  width: 200px;
+  height: 100%;
+  position: inherit;
+  top:0%;
+  background-color: rgba(120, 174, 159, 0.8);
+}
+
+.menu-options {
+   margin-top: 50px;
+  font-size: 20px;
+  font-weight: 200px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+.down-arrow {
+  position: absolute;
+  bottom: 15vh;
+  width: 5%;
+  text-align: center;
+  height: 4%;
+  left: 48%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+
+  font-size: 4vh;
+  color: black;
+  transform: rotate(-90deg);
+
+}
+
+a:link, a:visited {
+  color: rgb(169, 36, 7);
+  color: black;
+  text-decoration-line:none;
+  font-weight: 600;
+  font-style: normal;
+}
+
+a:hover, a:active {
+  color:rgba(189, 56, 27, 0.7);
+  text-decoration-line: underline;
+  font-style: bold;
+
+}
